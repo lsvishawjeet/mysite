@@ -1,0 +1,9 @@
+@charset "utf-8";
+	.NormalCharacterStyle
+{
+	font-family : Bauhaus 93;
+	font-size : 18px;
+	letter-spacing : 3.6px;
+	color : #000000;
+	color : rgb(0, 0, 0);
+}
