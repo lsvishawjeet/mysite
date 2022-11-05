@@ -47,7 +47,7 @@ const Sidebar = () => {
         <dl className="float">
           <dt >Clock</dt>
           <dd ><NavLink style={{textDecoration:"none", color:"white"}} activeClassName="activeline2"  to="/mysite/projects/digitalclock">- Digital Clock</NavLink></dd>
-          <dd>- Angular Clock</dd>
+          <dd >- Angular Clock</dd>
         </dl>
         <dl className="float">
           <dt >Games</dt>

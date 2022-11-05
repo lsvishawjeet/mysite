@@ -41,14 +41,14 @@ const Sidebar2 = () => {
         <dl className="float">
           <dt >Clock</dt>
           <dd ><NavLink style={{textDecoration:"none", color:"white"}} activeClassName="activeline2"  to="/mysite/projects/digitalclock">- Digital Clock</NavLink></dd>
-          <dd>- Angular Clock</dd>
+          <dd style={{cursor:"not-allowed"}}>- Angular Clock</dd>
         </dl>
         <dl className="float">
           <dt >Games</dt>
           <dd><NavLink style={{textDecoration:"none", color:"white"}} activeClassName="activeline2"  to="/mysite/projects/math">- Math riddles</NavLink></dd>
           <dd><NavLink style={{textDecoration:"none", color:"white"}} activeClassName="activeline2"  to="/mysite/projects/pushups">- PushUp Counter</NavLink></dd>
-          <dd>- Finger Speed battle</dd>
-          <dd>- Quiz game</dd>
+          <dd style={{cursor:"not-allowed"}}>- Finger Speed battle</dd>
+          <dd style={{cursor:"not-allowed"}}>- Quiz game</dd>
         </dl>
         <dl className="float">
           <dt >Weather</dt>
