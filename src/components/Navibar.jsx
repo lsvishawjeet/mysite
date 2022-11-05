@@ -38,9 +38,9 @@ const Navibar=()=>{
   <Navbar.Collapse id="responsive-navbar-nav ">
     <Nav className="m-auto d-flex justify-content-around fs-4 ">
       <Nav.Link><NavLink style={{textDecoration:"none", color:"white"}} activeClassName="activeline2 " className="mx-5 activeline" to="/mysite/home">Home</NavLink></Nav.Link>
-      <Nav.Link><NavLink style={{textDecoration:"none", color:"white"}} activeClassName="activeline2 " className="mx-5 activeline" to="/projects">Projects <span style={{color:"white", fontSize:"13px"}}>(Beta)</span></NavLink></Nav.Link>
-      <Nav.Link><NavLink style={{textDecoration:"none", color:"white"}} activeClassName="activeline2 " className="mx-5 activeline" to="/about">About</NavLink></Nav.Link>
-      <Nav.Link><NavLink style={{textDecoration:"none", color:"white"}} activeClassName="activeline2 " className="mx-5 activeline" to="/contact">Contact</NavLink></Nav.Link>
+      <Nav.Link><NavLink style={{textDecoration:"none", color:"white"}} activeClassName="activeline2 " className="mx-5 activeline" to="/mysite/projects">Projects <span style={{color:"white", fontSize:"13px"}}>(Beta)</span></NavLink></Nav.Link>
+      <Nav.Link><NavLink style={{textDecoration:"none", color:"white"}} activeClassName="activeline2 " className="mx-5 activeline" to="/mysite/about">About</NavLink></Nav.Link>
+      <Nav.Link><NavLink style={{textDecoration:"none", color:"white"}} activeClassName="activeline2 " className="mx-5 activeline" to="/mysite/contact">Contact</NavLink></Nav.Link>
     </Nav>
   </Navbar.Collapse>
   </Container>

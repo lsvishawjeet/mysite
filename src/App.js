@@ -39,15 +39,15 @@ function App() {
     <Switch>
     <Redirect exact from="/mysite" to="/mysite/home" />
     <Route exact path='/mysite/home' component={Home}/>
-    <Route exact path='/about' component={About}/>
-    <Route exact path='/projects' component={Projects}/>
-    <Route exact path='/projects/digitalclock' component={DigitalClock}/>
-    <Route exact path='/projects/weather' component={Weather}/>
-    <Route exact path='/projects/covid' component={Covid}/>
-    <Route exact path='/projects/pushups' component={PushUps}/>
-    <Route exact path='/projects/math' component={Math}/>
-    <Route exact path='/contact' component={Contact}/>
-    <Route exact path='/loader' component={Loader}/>
+    <Route exact path='/mysite/about' component={About}/>
+    <Route exact path='/mysite/projects' component={Projects}/>
+    <Route exact path='/mysite/projects/digitalclock' component={DigitalClock}/>
+    <Route exact path='/mysite/projects/weather' component={Weather}/>
+    <Route exact path='/mysite/projects/covid' component={Covid}/>
+    <Route exact path='/mysite/projects/pushups' component={PushUps}/>
+    <Route exact path='/mysite/projects/math' component={Math}/>
+    <Route exact path='/mysite/contact' component={Contact}/>
+    <Route exact path='/mysite/loader' component={Loader}/>
     </Switch>
     </>
   );
