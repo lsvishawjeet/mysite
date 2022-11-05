@@ -56,8 +56,8 @@ const Sidebar2 = () => {
         </dl>
         <dl className="float">
           <dt >More Apps</dt>
-          <dd>- Notes</dd>
           <dd><NavLink style={{textDecoration:"none", color:"white"}} activeClassName="activeline2"  to="/projects/covid">- Covid Data</NavLink></dd>
+          <dd>- <a style={{textDecoration:"none", color:"white"}} href="https://lsvishawjeet.github.io/c1" target="_blank">Institution site</a></dd>
         </dl>
       </div>:null}
       <button className={a} onClick={()=>setShow(!show)}>Projects</button>

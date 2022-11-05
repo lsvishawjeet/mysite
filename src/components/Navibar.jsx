@@ -31,7 +31,7 @@ const Navibar=()=>{
         <div className="navibar">
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="kaala fontnav">
   <Container>
-  <Navbar.Brand href="/home"><motion.span initial="hidden"
+  <Navbar.Brand href="https://lsvishawjeet.github.io/mysite"><motion.span initial="hidden"
   animate="visible"
   variants={variants}><img style={{height:"35px"}} src={img}  /></motion.span></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
