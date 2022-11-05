@@ -50,16 +50,16 @@ const Navibar=()=>{
 <div  className={a}>
 <Nav className="justify-content-center" activeKey="/home">
         <Nav.Item>
-        <Nav.Link className="navitems1"><NavLink style={{textDecoration:"none"}} activeClassName="activeline2" className="activeline" to="/home">Home</NavLink></Nav.Link>
+        <Nav.Link className="navitems1"><NavLink style={{textDecoration:"none"}} activeClassName="activeline2" className="activeline" to="/mysite/home">Home</NavLink></Nav.Link>
         </Nav.Item>
         <Nav.Item>
-        <Nav.Link className="navitems1"><NavLink style={{textDecoration:"none"}} activeClassName="activeline2" className="activeline" to="/projects">Projects</NavLink></Nav.Link>
+        <Nav.Link className="navitems1"><NavLink style={{textDecoration:"none"}} activeClassName="activeline2" className="activeline" to="/mysite/projects">Projects</NavLink></Nav.Link>
         </Nav.Item>
         <Nav.Item>
-        <Nav.Link className="navitems1"><NavLink style={{textDecoration:"none"}} activeClassName="activeline2" className="activeline" to="/about">About</NavLink></Nav.Link>
+        <Nav.Link className="navitems1"><NavLink style={{textDecoration:"none"}} activeClassName="activeline2" className="activeline" to="/mysite/about">About</NavLink></Nav.Link>
         </Nav.Item>
         <Nav.Item>
-        <Nav.Link className="navitems1"><NavLink style={{textDecoration:"none"}} activeClassName="activeline2" className="activeline" to="/contact">Contact</NavLink></Nav.Link>
+        <Nav.Link className="navitems1"><NavLink style={{textDecoration:"none"}} activeClassName="activeline2" className="activeline" to="/mysite/contact">Contact</NavLink></Nav.Link>
         </Nav.Item>
       </Nav>
 </div>

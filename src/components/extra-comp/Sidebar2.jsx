@@ -40,23 +40,23 @@ const Sidebar2 = () => {
       <div className="sidebarmain2">
         <dl className="float">
           <dt >Clock</dt>
-          <dd ><NavLink style={{textDecoration:"none", color:"white"}} activeClassName="activeline2"  to="/projects/digitalclock">- Digital Clock</NavLink></dd>
+          <dd ><NavLink style={{textDecoration:"none", color:"white"}} activeClassName="activeline2"  to="/mysite/projects/digitalclock">- Digital Clock</NavLink></dd>
           <dd>- Angular Clock</dd>
         </dl>
         <dl className="float">
           <dt >Games</dt>
-          <dd><NavLink style={{textDecoration:"none", color:"white"}} activeClassName="activeline2"  to="/projects/math">- Math riddles</NavLink></dd>
-          <dd><NavLink style={{textDecoration:"none", color:"white"}} activeClassName="activeline2"  to="/projects/pushups">- PushUp Counter</NavLink></dd>
+          <dd><NavLink style={{textDecoration:"none", color:"white"}} activeClassName="activeline2"  to="/mysite/projects/math">- Math riddles</NavLink></dd>
+          <dd><NavLink style={{textDecoration:"none", color:"white"}} activeClassName="activeline2"  to="/mysite/projects/pushups">- PushUp Counter</NavLink></dd>
           <dd>- Finger Speed battle</dd>
           <dd>- Quiz game</dd>
         </dl>
         <dl className="float">
           <dt >Weather</dt>
-          <dd><NavLink style={{textDecoration:"none", color:"white"}} activeClassName="activeline2"  to="/projects/weather">- Local Weather</NavLink></dd>
+          <dd><NavLink style={{textDecoration:"none", color:"white"}} activeClassName="activeline2"  to="/mysite/projects/weather">- Local Weather</NavLink></dd>
         </dl>
         <dl className="float">
           <dt >More Apps</dt>
-          <dd><NavLink style={{textDecoration:"none", color:"white"}} activeClassName="activeline2"  to="/projects/covid">- Covid Data</NavLink></dd>
+          <dd><NavLink style={{textDecoration:"none", color:"white"}} activeClassName="activeline2"  to="/mysite/projects/covid">- Covid Data</NavLink></dd>
           <dd>- <a style={{textDecoration:"none", color:"white"}} href="https://lsvishawjeet.github.io/c1" target="_blank">Institution site</a></dd>
         </dl>
       </div>:null}
