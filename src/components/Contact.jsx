@@ -64,7 +64,7 @@ const Contact = ()=>{
       <h2><span style={{borderBottom:"2px solid limegreen"}}>Contact Form</span></h2>
       <Form.Group className="mb-2" controlId="Name">
         <Form.Label>Your Name <span className="red">*</span></Form.Label>
-        <Form.Control type="text" placeholder="John" name="name" required/>
+        <Form.Control type="text" placeholder="Jashan" name="name" required/>
         <Form.Text className="text-muted">
         </Form.Text>
       </Form.Group>
